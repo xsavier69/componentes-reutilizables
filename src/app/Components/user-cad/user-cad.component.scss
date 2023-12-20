@@ -1,0 +1,10 @@
+ion-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    ion-label {
+        text-align: justify;
+        padding: 20px;
+    }
+}
