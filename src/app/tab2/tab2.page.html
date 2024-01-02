@@ -1,0 +1,9 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <app-nav-bar pageTitle="Página number 1"></app-nav-bar>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <app-color-list *ngFor="let color of colores" [color]="color"></app-color-list>
+
+</ion-content>
